@@ -1,0 +1,29 @@
+html, body, #__next {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', 'Roboto', 'Segoe UI', 'PingFang SC', Arial, sans-serif;
+  background: radial-gradient(circle at top, #f8fafc 0%, #e0f2fe 40%, #f5f3ff 100%);
+  color: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, button, textarea, select {
+  padding: 8px;
+  margin-top: 6px;
+  font-family: inherit;
+}
+
+button {
+  border-radius: 999px;
+  border: none;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
